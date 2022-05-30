@@ -72,6 +72,8 @@ Then run it:
 ![image](https://user-images.githubusercontent.com/58620359/171042851-836885a6-6db6-4a47-be77-7e26a6d0de1e.png)
 #### Copying Build Files
 ```
+(It will be better to change working directory of the container first and then copy all build files to ignore folder name conflict issue)
+> WORKDIR /usr/app
 > COPY ./ ./
 ```
 <img src="https://user-images.githubusercontent.com/58620359/171051515-c02a2c0d-8b9e-461b-8ada-6e1595df7090.png" height="300">
