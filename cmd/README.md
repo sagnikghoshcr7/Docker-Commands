@@ -45,7 +45,12 @@ Example:
 ```
 > docker kill <container id>
 ```
-
+#### Execute an Additional Command in a Container
+```
+> docker exec -it <container id> <command>
+Example:
+> docker exec -it 093bff89b3 redis-cli
+```
 
 
 
