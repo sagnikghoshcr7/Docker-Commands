@@ -64,7 +64,7 @@ Example:
 ```
 #### Tagging an Image
 ```
-> docker build -t <username>/<projectname>:<version or tag name>
+> docker build -t <username>/<projectname>:<version or tag name> .
 Then run it:
 > docker run <username>/<projectname>      (default it takes >docker run <username>/<projectname>:latest)
 ```
