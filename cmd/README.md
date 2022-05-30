@@ -84,6 +84,16 @@ Then run it:
 ```
 ![image](https://user-images.githubusercontent.com/58620359/171052747-99a73733-dcb8-4eb4-b653-26ab340e602c.png)
 
+#### Docker-Compose
+```
+Start Containers
+> docker-compose up
+Launch in Background
+> docker-compose up -d
+Stop Containers
+> docker-compose down
+```
+
 
 
 
