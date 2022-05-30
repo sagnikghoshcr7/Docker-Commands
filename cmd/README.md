@@ -86,8 +86,10 @@ Then run it:
 
 #### Docker-Compose
 ```
-Start Containers
+Start Container
 > docker-compose up
+Rebulid and Start Container
+> docker-compose up --build
 Launch in Background
 > docker-compose up -d
 Stop Containers
