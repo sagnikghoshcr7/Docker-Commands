@@ -52,8 +52,16 @@ Example:
 > docker exec -it 093bff89b3 redis-cli
 ```
 ![image](https://user-images.githubusercontent.com/58620359/171027516-1913dd60-2c13-4687-ba38-771ed19ea980.png)
-
-
+```
+-it can be written as -i -t
+-i for input & -t for beautiful terminal output helpers
+```
+#### Getting a Command Prompt in a Container
+```
+> docker exec -it <container id> sh
+Example:
+> docker exec -it 093bff89b3 sh
+```
 
 
 
