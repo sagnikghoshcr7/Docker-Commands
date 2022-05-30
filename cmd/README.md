@@ -69,8 +69,12 @@ Then run it:
 > docker run <username>/<projectname>      (default it takes >docker run <username>/<projectname>:latest)
 ```
 ![image](https://user-images.githubusercontent.com/58620359/171043547-fc2868ac-ae00-4596-8c8f-767d45e383ac.png)
-
 ![image](https://user-images.githubusercontent.com/58620359/171042851-836885a6-6db6-4a47-be77-7e26a6d0de1e.png)
+#### Copying Build Files
+```
+> COPY ./ ./
+```
+![image](https://user-images.githubusercontent.com/58620359/171051515-c02a2c0d-8b9e-461b-8ada-6e1595df7090.png)
 
 
 
