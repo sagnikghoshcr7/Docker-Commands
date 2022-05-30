@@ -97,7 +97,10 @@ Stop Containers
 List All Running Containers in Docker-Compose file
 > docker-compose ps
 ```
-
+#### Docker build by other named Dockerfile
+```
+> docker build -f Dockerfile.dev .       (building by Dockerfile.dev file and -f for filename)
+```
 
 
 
