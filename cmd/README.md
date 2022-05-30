@@ -94,6 +94,8 @@ Launch in Background
 > docker-compose up -d
 Stop Containers
 > docker-compose down
+List All Running Containers in Docker-Compose file
+> docker-compose ps
 ```
 
 
