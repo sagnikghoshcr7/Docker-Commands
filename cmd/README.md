@@ -75,6 +75,7 @@ Then run it:
 > COPY ./ ./
 ```
 <img src="https://user-images.githubusercontent.com/58620359/171051515-c02a2c0d-8b9e-461b-8ada-6e1595df7090.png" height="300">
+
 #### Container Port Mapping
 ```
 > docker run -p <localhost port>:<container port> <imageid or imagename>
