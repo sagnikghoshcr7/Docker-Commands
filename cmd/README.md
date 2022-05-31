@@ -101,6 +101,16 @@ List All Running Containers in Docker-Compose file
 ```
 > docker build -f Dockerfile.dev .       (building by Dockerfile.dev file and -f for filename)
 ```
+#### Bookmarking & Docker Volumes
+```
+```
+![image](https://user-images.githubusercontent.com/58620359/171220055-1d6d06c4-7d8d-4118-94c2-28b92eb8f4f3.png)
+
+
+
+
+
+
 
 
 
